@@ -69,7 +69,7 @@ p, h3 {
 }
 
 .project-img {
-    width: 250px;
+    width: 200px;
 }
 
 .project-links {
@@ -79,6 +79,10 @@ p, h3 {
 .project-links a {
     margin-right: 10px;
     font-weight: 600;
+}
+
+.contact, .project {
+    margin-top: 30px;
 }
 
 .contact-link {
