@@ -32,6 +32,10 @@ p, h3 {
     line-height: 1.5;
 }
 
+p, a {
+    font-size: 1.1rem;
+}
+
 .container {
     width: 80%;
     max-width: 600px;
