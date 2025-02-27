@@ -93,6 +93,10 @@ p, a {
     font-weight: bold;
 }
 
+.social {
+    margin-right: 10px;
+}
+
 .footer {
     background-color: #86bee2;
     text-align: center;
