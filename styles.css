@@ -7,14 +7,46 @@
 
 body {
     font-family: "Outfit", sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode, body.dark-mode a {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+body.dark-mode .title {
+    color: #86bee2;
+}
+
+body.dark-mode .tool {
+    color: #1a1a1a;
+}
+
+body.dark-mode .footer {
+    color: #1a1a1a;
+}
+
+body.dark-mode .footer a {
+    background-color: #86bee2;
+    color: #1a1a1a;
 }
 
 h1, h2 {
     font-size: 2.5rem;
 }
 
-nav {
-    text-align: right;
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 1.6rem;
+}
+
+i:hover {
+    cursor: pointer;
 }
 
 a {
@@ -95,12 +127,14 @@ p, a {
 
 .social {
     margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .footer {
     background-color: #86bee2;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     font-size: 1.02rem;
     font-weight: 600;
 }
