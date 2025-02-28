@@ -69,7 +69,7 @@ p, a {
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     max-width: 600px;
     margin: 30px auto;
 }
@@ -92,6 +92,7 @@ p, a {
 .project-card {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5px;
     border: 2px solid #333232;
     border-radius: 4px;
@@ -110,8 +111,10 @@ p, a {
 }
 
 .project-img {
-    width: 200px;
+    width: 250px;
+    height: 200px;
     padding: 10px 0px;
+    margin: 0px 10px;
 }
 
 .project-links {
