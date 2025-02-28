@@ -39,6 +39,7 @@ h1, h2 {
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 i {
@@ -118,7 +119,7 @@ p, a {
 }
 
 .project-links {
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 
 .project-links a {
@@ -141,7 +142,8 @@ p, a {
 }
 
 .footer {
-    background-color: #86bee2;
+    margin-top: 60px;
+    border-top: 1px solid lightgray;
     text-align: center;
     padding: 3px;
     font-size: 1.02rem;
