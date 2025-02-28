@@ -84,6 +84,11 @@ p, a {
     color: #333232;
 }
 
+.blog-link {
+    text-decoration-color: #86bee2;
+    font-weight: 500;
+}
+
 .project-card {
     display: flex;
     justify-content: center;
@@ -106,7 +111,7 @@ p, a {
 
 .project-img {
     width: 200px;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .project-links {
