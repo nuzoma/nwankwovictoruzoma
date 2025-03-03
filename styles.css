@@ -120,6 +120,10 @@ p, a {
     margin: 0px 10px;
 }
 
+.project-text h3 {
+    font-size: 1.3rem;
+}
+
 .project-links {
     margin: 10px 0px;
 }
