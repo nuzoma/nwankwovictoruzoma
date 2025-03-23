@@ -5,6 +5,15 @@
     touch-action: manipulation;
 }
 
+@font-face {
+    font-family: 'monument extended';
+    src: url(./MonumentExtended-Ultrabold.otf);
+}
+
+h1, h2, h3 {
+    font-family: 'monument extended';
+}
+
 body {
     background-color: #1a1a1a;
     color: #fff;
@@ -21,9 +30,9 @@ body.light-mode .title {
     color: #1a1a1a;
 }
 
-body.light-mode #mode-icon {
+/* body.light-mode #mode-icon {
     color: orange;
-}
+} */
 
 body.light-mode .tool {
     color: #1a1a1a;
@@ -50,7 +59,13 @@ i:hover {
 a {
     font-size: 1.02rem;
     color: #86bee2;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 nav a {
@@ -66,9 +81,9 @@ p, a {
     font-size: 1.1rem;
 }
 
-#mode-icon {
+/* #mode-icon {
     color: orange;
-}
+} */
 
 .container {
     width: 85%;
@@ -87,7 +102,6 @@ p, a {
 }
 
 .blog-link {
-    text-decoration-color: #86bee2;
     font-weight: 500;
 }
 
@@ -115,6 +129,14 @@ p, a {
     font-size: .7rem;
 }
 
+.dev-project-link {
+    margin-bottom: 15px;
+}
+
+.dev-project-link a {
+    font-size: 1rem;
+}
+
 .image-container {
     border: 3px solid #1a1a1a;
     border-radius: 4px;
@@ -128,7 +150,7 @@ p, a {
 .project-img {
     width: 100%;
     padding: 20px 0px;
-    animation: scroll-image 6s linear infinite;
+    animation: scroll-image 5s linear infinite;
 }
 
 @keyframes scroll-image {
