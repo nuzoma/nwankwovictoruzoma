@@ -30,12 +30,16 @@ body.light-mode .title {
     color: #1a1a1a;
 }
 
-/* body.light-mode #mode-icon {
-    color: orange;
-} */
-
 body.light-mode .tool {
     color: #1a1a1a;
+}
+
+body.light-mode .bio {
+    background-color: #dfdddd;
+}
+
+body.light-mode .blog-link {
+    background-color: #dfdddd;
 }
 
 h1, h2 {
@@ -80,10 +84,6 @@ p, h3 {
 p, a {
     font-size: 1.1rem;
 }
-
-/* #mode-icon {
-    color: orange;
-} */
 
 .container {
     width: 85%;
@@ -144,7 +144,7 @@ p, a {
 }
 
 .image-container {
-    border: 3px solid #1a1a1a;
+    border: 1px solid #1a1a1a;
     border-radius: 4px;
     margin-top: 10px;
     padding: 0px;
