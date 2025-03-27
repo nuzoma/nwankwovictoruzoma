@@ -38,6 +38,17 @@ body.light-mode .bio {
     background-color: #dfdddd;
 }
 
+body.light-mode .resume {
+    background-color: #dfdddd;
+    color: #333232;
+    padding: 3px 12px;
+    border: 2px solid #333232;
+}
+
+body.light-mode .resume-link {
+    background-color: #dfdddd;
+}
+
 body.light-mode .blog-link {
     background-color: #dfdddd;
 }
@@ -92,7 +103,7 @@ p, a {
 }
 
 .nav-social {
-    font-size: 1.7rem;
+    font-size: 1.85rem;
     margin-left: 10px;
 }
 
@@ -104,6 +115,19 @@ p, a {
     background-color: #242424;
     padding: 20px;
     border-radius: 6px;
+}
+
+.resume {
+    display: inline-block;
+    text-decoration: none;
+    color: #dfdddd;
+    padding: 3px 12px;
+    border: 2px solid #dfdddd;
+    border-radius: 30px;
+}
+
+.bio .resume-link {
+    text-decoration: none;
 }
 
 .title {
