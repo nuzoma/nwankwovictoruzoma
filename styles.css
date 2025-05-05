@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 body {
-    background-color: #1a1a1a;
+    background-color: #0C151D;
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     transition: background-color 0.3s ease;
@@ -23,19 +23,19 @@ body {
 
 body.light-mode, body.light-mode a {
     background-color: #fff;
-    color: #1a1a1a;
+    color: #0C151D;
 }
 
 body.light-mode .title {
-    color: #1a1a1a;
+    color: #0C151D;
 }
 
 body.light-mode .tool {
-    color: #1a1a1a;
+    color: #0C151D;
 }
 
 body.light-mode .bio {
-    background-color: #dfdddd;
+    background-color: #fff;
 }
 
 body.light-mode .resume {
@@ -46,10 +46,6 @@ body.light-mode .resume {
 }
 
 body.light-mode .resume-link {
-    background-color: #dfdddd;
-}
-
-body.light-mode .blog-link {
     background-color: #dfdddd;
 }
 
@@ -112,8 +108,8 @@ p, a {
 }
 
 .bio {
-    background-color: #242424;
-    padding: 20px;
+    background-color: #0C151D;
+    padding: 20px 0px 20px;
     border-radius: 6px;
 }
 
@@ -138,6 +134,7 @@ p, a {
 
 .blog-link {
     font-weight: 500;
+    color: #fff;
 }
 
 .project-card {
@@ -145,23 +142,13 @@ p, a {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    border: 2px solid #333232;
+    border: 1px solid #86bee2;
     width: 100%;
     height: auto;
     border-radius: 4px;
     margin: 10px 0px;
     padding: 0px 20px 10px;
     overflow: hidden;
-}
-
-.tool {
-    background-color: #fdc570;
-    color: #1a1a1a;
-    margin-right: 10px;
-    padding: 5px 10px;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: .7rem;
 }
 
 .dev-project-link {
@@ -173,7 +160,6 @@ p, a {
 }
 
 .image-container {
-    border: 1px solid #1a1a1a;
     border-radius: 4px;
     margin-top: 10px;
     padding: 0px;
