@@ -138,8 +138,8 @@ p, a {
 }
 
 .project-card {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 5px;
     border: 1px solid #86bee2;
