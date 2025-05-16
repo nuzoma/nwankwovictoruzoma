@@ -56,6 +56,7 @@ h1, h2 {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 40px;
 }
 
@@ -101,6 +102,17 @@ p, a {
 .nav-social {
     font-size: 1.85rem;
     margin-left: 10px;
+}
+
+.enable-chaos {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.enable-chaos p {
+    font-size: .86rem;
 }
 
 .main {
