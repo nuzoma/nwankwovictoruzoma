@@ -201,6 +201,7 @@ p, a {
     font-weight: 500;
     font-family: "Ubuntu", sans-serif;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .hire-me-btn a {
