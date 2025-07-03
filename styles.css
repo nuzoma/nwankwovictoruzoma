@@ -198,6 +198,13 @@ p, a {
     border-radius: 15px;
 }
 
+.hire-me-btn a {
+    text-decoration: none;
+    font-style: normal;
+    color: #050000;
+    font-weight: 500;
+}
+
 .available-btn {
     padding: 11px 20px;
     background-color: #dcfce7;
