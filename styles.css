@@ -204,6 +204,10 @@ p, a {
     cursor: pointer;
 }
 
+.hire-me-link {
+    color: #050000;
+}
+
 .hire-me-btn a {
     text-decoration: none;
     font-style: normal;
