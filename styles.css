@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 body {
-    background-color: #0C151D;
+    background-color: #050000;
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     transition: background-color 0.3s ease;
@@ -48,6 +48,11 @@ body.light-mode .resume {
 body.light-mode .resume-link {
     background-color: #dfdddd;
 }
+
+body.light-mode .hire-me-btn {
+    background-color: #050000;
+    color: #fff;
+} 
 
 h1, h2 {
     font-size: 2rem;
@@ -120,9 +125,89 @@ p, a {
 }
 
 .bio {
-    background-color: #0C151D;
+    background-color: #050000;
     padding: 20px 0px 20px;
     border-radius: 6px;
+}
+
+.cta-btns {
+    display: flex;
+    gap: 10px;
+    margin: 30px 0px 70px;
+}
+
+.availability-status {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.status-indicator {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    background: #4d7c0f;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 3;
+}
+
+.ripple-circle {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: rgba(76, 175, 80, 0.3);
+    border-radius: 50%;
+    animation: ripple 1.5s infinite ease-out;
+}
+
+.ripple-circle.delay {
+    animation: 0.75s;
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0.7;
+    }
+}
+
+.hire-me-btn, .available-btn {
+    padding: 10px 20px;
+    background: #fff;
+    border: none;
+}
+
+.hire-me-btn {
+    padding: 13px 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 15px;
+}
+
+.available-btn {
+    padding: 11px 20px;
+    background-color: #dcfce7;
+    border-radius: 50px;
+}
+
+.status-text {
+    color: #4d7c0f;
+    font-size: .9rem;
+    font-weight: 500;
 }
 
 .resume {
@@ -136,12 +221,6 @@ p, a {
 
 .bio .resume-link {
     text-decoration: none;
-}
-
-.title {
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: #86bee2;
 }
 
 .blog-link {
