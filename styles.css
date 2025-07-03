@@ -54,6 +54,11 @@ body.light-mode .hire-me-btn {
     color: #fff;
 } 
 
+body.light-mode .hire-me-btn a {
+    background: #050000;
+    color: #fff;
+}
+
 h1, h2 {
     font-size: 2rem;
 }
