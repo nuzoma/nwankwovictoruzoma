@@ -78,6 +78,10 @@ i {
     font-size: 1.1rem;
 }
 
+.fa-arrow-left {
+    margin-bottom: 50px;
+}
+
 i:hover {
     cursor: pointer;
 }
