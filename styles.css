@@ -74,6 +74,10 @@ i {
     font-size: 1.6rem;
 }
 
+.fa-arrow-up-right-from-square {
+    font-size: 1.1rem;
+}
+
 i:hover {
     cursor: pointer;
 }
