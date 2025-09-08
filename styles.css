@@ -197,7 +197,7 @@ p, a {
 
 .hire-me-btn {
     padding: 13px 40px;
-    font-size: 1.1rem;
+    font-size: 1.02rem;
     font-weight: 500;
     font-family: "Ubuntu", sans-serif;
     border-radius: 15px;
@@ -245,9 +245,15 @@ p, a {
     color: #fff;
 }
 
-.project-card {
+.project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     gap: 5px;
     border: 1px solid #86bee2;
@@ -255,7 +261,7 @@ p, a {
     height: auto;
     border-radius: 4px;
     margin: 10px 0px;
-    padding: 0px 20px 10px;
+    padding: 0px;
     overflow: hidden;
 }
 
@@ -278,7 +284,7 @@ p, a {
 
 .project-img {
     width: 100%;
-    padding: 20px 0px;
+    padding: 20px 10px;
     animation: scroll-image 5s linear infinite;
 }
 
@@ -294,15 +300,23 @@ p, a {
 
 .project-text h3 {
     font-size: 1.3rem;
+    padding: 0px 10px;
+}
+
+.project-text p {
+    padding: 0px 10px;
 }
 
 .project-links {
-    margin: 10px 0px;
+    margin: 10px 0px 0px;
+    background-color: #86bee2;
+    padding: 10px 10px 15px;
 }
 
 .project-links a {
     margin-right: 10px;
     font-weight: 600;
+    color: #050000;
 }
 
 .contact, .project {
@@ -335,7 +349,11 @@ p, a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-bottom: 15px;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: 1fr;
     }
     
 }
